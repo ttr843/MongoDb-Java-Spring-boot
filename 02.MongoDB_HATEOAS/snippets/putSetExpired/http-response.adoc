@@ -1,0 +1,27 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/hal+json
+Content-Length: 352
+
+{
+  "date" : "date",
+  "description" : "desc",
+  "expired" : true,
+  "grade" : 5,
+  "keywords" : null,
+  "title" : "ExpiredPost",
+  "user" : {
+    "timestamp" : 1606350899,
+    "date" : "2020-11-26T00:34:59.000+00:00"
+  },
+  "_links" : {
+    "delete" : {
+      "href" : "http://localhost:8080/posts/5fbed1146eddd4205107cdd0"
+    }
+  }
+}
+----

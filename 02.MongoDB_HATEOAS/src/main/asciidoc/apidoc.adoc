@@ -1,0 +1,31 @@
+= Описание API
+
+== Методы
+
+|===
+|Метод | Назначение
+|PUT
+|Обновить сущность или ее состояние
+|POST
+|Отправить данные
+|GET
+|Получить данные
+|===
+
+=== Установить пост как просроченный
+
+Можно указать пост как просроченный
+
+.curl
+include::{snippets}\putSetExpired\curl-request.adoc[]
+
+.request
+
+include::{snippets}\putSetExpired\http-request.adoc[]
+
+.response
+
+include::{snippets}\putSetExpired\http-response.adoc[]
+
+.response-fields
+include::{snippets}\putSetExpired\response-fields.adoc[]

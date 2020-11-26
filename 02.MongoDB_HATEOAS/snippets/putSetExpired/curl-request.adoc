@@ -1,0 +1,4 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/posts/5fbed1146eddd4205107cdd0/setExpired' -i -X PUT
+----
